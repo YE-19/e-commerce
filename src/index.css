@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .Theading {
+        @apply font-sans font-extrabold tracking-tight uppercase
+    }
+    .Tparg {
+        @apply font-sans  leading-relaxed
+    }
+  }
+  
