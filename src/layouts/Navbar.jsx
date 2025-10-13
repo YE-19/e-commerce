@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className=' h-[80px] min-w-full px-[100px] flex justify-between flex-wrap items-center content-center'>
+    <nav className=' h-[70px] min-w-full px-[100px] flex justify-between flex-wrap items-center content-center'>
       <span className=' text-[32px] Theading'>SHOP.CO</span>
       <ul className=' w-[321px] text-[16px] Tparg justify-between flex-wrap flex items-center content-center gap'>
         <NavLink className="barhover" to="/">Home</NavLink>
