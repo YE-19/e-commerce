@@ -1,10 +1,15 @@
 import React from 'react'
 import Heroh from '../components/Heroh'
+import Clothesman from '../components/Clothesman'
+import Clotheswoman from '../components/Clotheswoman'
 
 const Home = () => {
   return (
     <>
     <Heroh/>
+    <Clothesman/>
+    <div className='w-[1300px] m-auto h-[2px] bg-bg'></div>
+    <Clotheswoman/>
     </>
   )
 }

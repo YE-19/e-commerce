@@ -3,7 +3,7 @@ import Navbar from "./layouts/Navbar"
 import Home from "./pages/Home"
 import AboutUs from "./pages/AboutUs"
 import Man from "./pages/Man"
-import Women from "./pages/Women"
+import Woman from "./pages/Woman"
 import Error from "./pages/Error"
 
 
@@ -17,7 +17,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/About" element={<AboutUs/>} />
       <Route path="/Man" element={<Man/>} />
-      <Route path="/Women" element={<Women/>} />
+      <Route path="/Woman" element={<Woman/>} />
       <Route path="*" element={<Error/>} />
     </Routes>
     </>

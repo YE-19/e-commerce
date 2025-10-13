@@ -2,7 +2,9 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <section className='p-[100px]'>
+    <h2 className='text-[50px] Theading'>About us COMING SOON</h2>
+  </section>
   )
 }
 

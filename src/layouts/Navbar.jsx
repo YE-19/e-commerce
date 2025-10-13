@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavLink className="barhover" to="/">Home</NavLink>
         <NavLink className="barhover" to="/About">About</NavLink>
         <NavLink className="barhover" to="/Man">Man</NavLink>
-        <NavLink className="barhover" to="/Women">Women</NavLink>
+        <NavLink className="barhover" to="/Woman">Women</NavLink>
       </ul>
       <input 
       type="search" 
