@@ -2,9 +2,9 @@ import React from 'react';
 import Scard1 from './Staylescard/Scard1';
 import Scard2 from './Staylescard/Scard2';
 import casule from '../assets/casule.png';
-import formal from '../assets/formal.jpg';
-import gym from '../assets/gym.jpg';
-import party from '../assets/party.jpg';
+import formal from '../assets/formal.png';
+import gym from '../assets/gym.png';
+import party from '../assets/party.png';
 
 const Styleh = () => {
   return (

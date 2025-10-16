@@ -3,6 +3,7 @@ import Heroh from '../components/Heroh'
 import Clothesman from '../components/Clothesman'
 import Clotheswoman from '../components/Clotheswoman'
 import Styleh from '../components/Styleh'
+import Customersh from '../components/Customersh'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <div className='w-[1300px] m-auto h-[2px] bg-bg'></div>
     <Clotheswoman/>
     <Styleh/>
+    <Customersh/>
     </>
   )
 }
