@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom'
 const Clothesman = () => {
     const nava = useNavigate();
   return (
-        <section className=' px-[100px] py-[70px] min-h-screen flex flex-col justify-between items-center content-center'>
+        <section id='man' className=' px-[100px] py-[70px] min-h-screen flex flex-col justify-between items-center content-center'>
             <h2 className='Theading text-[48px]'>Man Collection</h2>
             <div className='flex items-center content-center gap-8'>
                 <ClothesCard 

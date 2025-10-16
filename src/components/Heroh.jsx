@@ -15,7 +15,7 @@ const Heroh = () => {
           Browse through our diverse range of meticously crafted garments, designed
           to bring out your individuality cater to your sense of style
           </p>
-          <button className='btnB'>Shop Now</button>
+          <a href="#man"><button className='btnB'>Shop Now</button></a>
           <div className='flex py-5 justify-between content-center items-center'>
             <div>
               <h2 className='Theading text-[40px] font-semibold'>200+</h2>
